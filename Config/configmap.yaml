@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+data:
+  APP_MODE: "testing"
+  APP_PORT: "9000"
